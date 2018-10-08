@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Demo</title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: stretch;
+            height: 100%;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            /* display: flex; */
+            /* flex: 1; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box span {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .box1 {
+            background: red;
+        }
+
+        .box2 {
+            background: green;
+        }
+
+        .box3 {
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">
+            <span>Box 1</span>
+        </div>
+        <div class="box box2">
+            <span>Box 2</span>
+        </div>
+        <div class="box box3">
+            <span>Box 3</span>
+        </div>
+        <div class="box box1">
+            <span>Box 1</span>
+        </div>
+        <div class="box box2">
+            <span>Box 2</span>
+        </div>
+        <div class="box box3">
+            <span>Box 3</span>
+        </div>
+        <div class="box box1">
+            <span>Box 1</span>
+        </div>
+        <div class="box box2">
+            <span>Box 2</span>
+        </div>
+        <div class="box box3">
+            <span>Box 3</span>
+        </div>
+    </div>
+</body>
+
+</html>
